@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Венера](https://up.htmlacademy.ru/htmlcss/31/user/1805411).
-* Наставник: `Неизвестно`.
+* Наставник: [Анатолий Долгов](https://htmlacademy.ru/profile/dolgov_anatoly)
 
 ---
 
