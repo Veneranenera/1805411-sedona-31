@@ -26,46 +26,50 @@
   <main>
     <section>
       <h1 class="visually-hidden">Поиск жилья в городе Седона</h1>
-        <p>Инфраструктура:</p>
-          <ul>
-            <li>
-              <input type="checkbox" name="pool" id="filter-pool" checked>
-              <label for="filter-pool">Бассейн</label>
-            </li>
-            <li>
-              <input type="checkbox" name="parking" id="filter-parking">
-              <label for="filter-parking">Парковка</label>
-            </li>
-            <li>
-              <input type="checkbox" name="wi-fi" id="filter-wi-fi">
-              <label for="filter-wi-fi">Wi-Fi</label>
-            </li>
-          </ul>
-        <p>Тип жилья:</p>
-          <ul>
-            <li>
-              <input type="checkbox" name="hotel" id="filter-hotel" checked>
-              <label for="filter-hotel">Гостиница</label>
-            </li>
-            <li>
-              <input type="checkbox" name="motel" id="filter-motel" checked>
-              <label for="filter-motel">Мотель</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apartment" id="filter-apartment" checked>
-              <label for="filter-apartment">Апартаменты</label>
-            </li>
-          </ul>
+      <img src="https://via.placeholder.com/1200x217" width="1200" height="217" alt="Город Седона">
+      <form method="get" action="https://echo.html.academy.ru">
+        <fieldset>
+          <legend>Фильтры:</legend>
+          <p>Инфраструктура:</p>
+        <ul>
+          <li>
+            <input type="checkbox" name="pool" id="filter-pool" checked>
+            <label for="filter-pool">Бассейн</label>
+          </li>
+          <li>
+            <input type="checkbox" name="parking" id="filter-parking">
+            <label for="filter-parking">Парковка</label>
+          </li>
+          <li>
+            <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+            <label for="filter-wi-fi">Wi-Fi</label>
+          </li>
+        </ul>
+          <p>Тип жилья:</p>
+            <ul>
+              <li>
+                <input type="checkbox" name="hotel" id="filter-hotel" checked>
+                <label for="filter-hotel">Гостиница</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-motel" checked>
+                <label for="filter-motel">Мотель</label>
+              </li>
+              <li>
+                <input type="checkbox" name="apartment" id="filter-apartment" checked>
+                <label for="filter-apartment">Апартаменты</label>
+              </li>
+            </ul>
           <p>Стоимость в сутки, <span>₽:</span></p>
           <label>от<input type="text" value="0"></label>
           <label>до<input type="text" value="3000"></label><br>
-        <p>
-          <button type="button">Показать</button>
-        </p>
-        <strong>Найдено: 3</strong><br>
-      <form method="get" action="https://echo.html.academy.ru">
-        <fieldset>
-          <legend>Сортировка:</legend>
+          <p>
+          <button type="submit">Показать</button>
+          </p>
+        </fieldset>
+      </form>
+      <strong>Найдено: 3</strong><br>
+        <p>Сортировка:</p>
           <ul>
             <li><a href=#>По цене</a></li>
             <li><a href=#>По типу</a></li>
@@ -73,60 +77,58 @@
             <li><a href=#>По возрастанию</a></li>
             <li><a href=#>По убыванию</a></li>
           </ul>
-        </fieldset>
-      </form>
     </section>
-    <section>
-      <h2 class="visually-hidden">Результаты поиска</h2>
+<section>
+  <h2 class="visually-hidden">Результаты поиска</h2>
+  <ul>
+    <li>
+      <h3>Amara Resort & Spa</h3>
+      <h4>Гостиница<span> от 4000 ₽</span></h4>
+      <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
+      <p>
+        <a href="#">Подробнее</a>
+        <a href="#">Забронировать</a>
+      </p>
       <ul>
-        <li>
-          <h3>Amara Resort & Spa</h3>
-          <h4>Гостиница<span> от 4000 ₽</span></h4>
-          <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
-          <p>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
-          </p>
-          <ul>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-          </ul>
-          <p>Рейтинг:8,5</p>
-        </li>
-        <li>
-          <h3>Desert Quail Inn</h3>
-          <h4>Мотель<span> от 3000 ₽ </span></h4>
-          <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
-          <p>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
-          </p>
-          <ul>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-          </ul>
-          <p>Рейтинг:8,9</p>
-        </li>
-        <li>
-          <h3>Villas at Poco Diablo</h3>
-          <h4>Апартаменты<span> от 2000 ₽ </span></h4>
-          <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
-          <p>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
-          </p>
-          <ul>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-            <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
-          </ul>
-        </li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
       </ul>
-      <p>Рейтинг:9,2</p>
-    </section>
+      <p>Рейтинг:8,5</p>
+    </li>
+    <li>
+      <h3>Desert Quail Inn</h3>
+      <h4>Мотель<span> от 3000 ₽ </span></h4>
+      <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
+      <p>
+        <a href="#">Подробнее</a>
+        <a href="#">Забронировать</a>
+      </p>
+      <ul>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+      </ul>
+      <p>Рейтинг:8,9</p>
+    </li>
+    <li>
+      <h3>Villas at Poco Diablo</h3>
+      <h4>Апартаменты<span> от 2000 ₽ </span></h4>
+      <img src="https://via.placeholder.com/220x165" width="220" height="165" alt="Гостиница Amara Resort & Spa">
+      <p>
+        <a href="#">Подробнее</a>
+        <a href="#">Забронировать</a>
+      </p>
+      <ul>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+        <li><img src="https://via.placeholder.com/20x15" width="20" height="15" alt="рейтинг"></li>
+      </ul>
+    </li>
+  </ul>
+  <p>Рейтинг:9,2</p>
+</section>
   </main>
   <footer class="main-footer">
     <address><a href="#visitsedona">#visitsedona</a></address><br>
